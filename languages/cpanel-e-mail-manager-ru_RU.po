@@ -1,0 +1,882 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cPanel E-Mail Manager\n"
+"POT-Creation-Date: 2016-12-21 09:01-0500\n"
+"PO-Revision-Date: 2016-12-21 09:03-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: emailmanager.php\n"
+
+#: emailmanager.php:216
+msgid "E-Mail Manager"
+msgstr "E-Mail Manager"
+
+#: emailmanager.php:268
+msgid "E-Mail Account Activated"
+msgstr "Активации учетной записи электронной почты"
+
+#: emailmanager.php:297
+#, php-format
+msgid "The e-mail account %1$s@%2$s has been successfully created"
+msgstr "Счет электронной почты %1$s@%2$s был успешно создан"
+
+#: emailmanager.php:299
+msgid "The following error occurred"
+msgstr "Произошла следующая ошибка"
+
+#: emailmanager.php:299
+#, php-format
+msgid ""
+"An unknown error occurred while trying to create the e-mail account for %s"
+msgstr ""
+"Произошла неизвестная ошибка при попытке создать учетную запись электронной "
+"почты для %s"
+
+#: emailmanager.php:350
+msgid "cPanel E-Mail Manager Statistics"
+msgstr "cPanel статистика электронной почты диспетчера"
+
+#: emailmanager.php:469 emailmanager.php:539 emailmanager.php:543
+#: emailmanager.php:570 emailmanager.php:681 emailmanager.php:981
+#: emailmanager.php:987 emailmanager.php:1020 emailmanager.php:1023
+#: emailmanager.php:1162 emailmanager.php:1461 emailmanager.php:1616
+#: emailmanager.php:1653 emailmanager.php:1669 emailmanager.php:1913
+msgid "Configuration Options"
+msgstr "параметры конфигурации"
+
+#: emailmanager.php:469 emailmanager.php:570
+msgid ""
+"There are currently no domains configured in cPanel for this WordPress MU "
+"site. Please contact your server administrator for assistance or click the "
+"button below to create a new DNS entry for this domain."
+msgstr ""
+"Есть в настоящее время нет доменов, настроенных в cPanel для этого сайта "
+"WordPress MU. Пожалуйста, обратитесь за помощью к администратору сервера или "
+"нажмите кнопку для создания новой записи DNS для этого домена."
+
+#: emailmanager.php:473 emailmanager.php:574
+msgid "Create DNS Entry"
+msgstr "Создайте запись DNS"
+
+#: emailmanager.php:539
+#, php-format
+msgid "The DNS entry for %s has been successfully added"
+msgstr "Запись DNS для %s был успешно добавлен"
+
+#: emailmanager.php:539
+msgid "Continue to"
+msgstr "Продолжать"
+
+#: emailmanager.php:542
+msgid "Park Domain"
+msgstr "Парка домена"
+
+#: emailmanager.php:542
+#, php-format
+msgid ""
+"An unspecified error has occurred while trying to add a parked domain for %s."
+msgstr ""
+"Неизвестная ошибка произошла при попытке добавления припаркованного домена "
+"для %s."
+
+#: emailmanager.php:543 emailmanager.php:981 emailmanager.php:1020
+msgid "Please contact your server administrator for assistance."
+msgstr "Пожалуйста, обратитесь к администратору сервера для помощи."
+
+#: emailmanager.php:648
+msgid "Configuration options have been updated"
+msgstr "Параметры конфигурации обновлены"
+
+#: emailmanager.php:681 emailmanager.php:1162 emailmanager.php:1445
+#: emailmanager.php:1461 emailmanager.php:1511 emailmanager.php:1616
+#: emailmanager.php:1653 emailmanager.php:1913
+msgid "List of Accounts"
+msgstr "Список счетов"
+
+#: emailmanager.php:681 emailmanager.php:1162 emailmanager.php:1461
+#: emailmanager.php:1616 emailmanager.php:1653
+msgid "Link Existing Accounts"
+msgstr "Ссылка существующих учетных записей"
+
+#: emailmanager.php:681 emailmanager.php:1162 emailmanager.php:1461
+#: emailmanager.php:1616 emailmanager.php:1653 emailmanager.php:1657
+#: emailmanager.php:1661 emailmanager.php:1913
+msgid "Add New Account"
+msgstr "Добавить новую учетную запись"
+
+#: emailmanager.php:681 emailmanager.php:1162 emailmanager.php:1461
+#: emailmanager.php:1616 emailmanager.php:1653
+msgid "Manage Mailing Lists"
+msgstr "Управление списками рассылки"
+
+#: emailmanager.php:681 emailmanager.php:1669
+msgid "Upgrade Plugin"
+msgstr "Обновление плагина"
+
+#: emailmanager.php:684 emailmanager.php:703 emailmanager.php:990
+#: emailmanager.php:1000 emailmanager.php:1026 emailmanager.php:1036
+#: emailmanager.php:1536 emailmanager.php:1551
+msgid "The following fields are required"
+msgstr "Следующие поля являются обязательными"
+
+#: emailmanager.php:686
+msgid "At least one WordPress user group must be selected."
+msgstr ""
+"Должен быть выбран по крайней мере одной группы пользователей WordPress."
+
+#: emailmanager.php:689 emailmanager.php:935
+msgid "E-Mail Domain"
+msgstr "Домен электронной почты"
+
+#: emailmanager.php:692 emailmanager.php:790 emailmanager.php:1640
+msgid "E-Mail Alias Format"
+msgstr "Формат псевдонима электронной почты"
+
+#: emailmanager.php:695 emailmanager.php:959 emailmanager.php:992
+#: emailmanager.php:1008 emailmanager.php:1028 emailmanager.php:1044
+msgid "cPanel User ID"
+msgstr "cPanel логин"
+
+#: emailmanager.php:698 emailmanager.php:960 emailmanager.php:995
+#: emailmanager.php:1009 emailmanager.php:1031 emailmanager.php:1045
+msgid "cPanel Password"
+msgstr "cPanel пароль"
+
+#: emailmanager.php:701 emailmanager.php:998 emailmanager.php:1034
+msgid "cPanel Server IP (or localhost)"
+msgstr "cPanel IP сервера (или localhost)"
+
+#: emailmanager.php:750
+msgid "Automation"
+msgstr "автоматизация"
+
+#: emailmanager.php:752 emailmanager.php:754
+msgid "Automatically Create E-mail Accounts"
+msgstr "Автоматически создавать учетные записи электронной почты"
+
+#: emailmanager.php:752 emailmanager.php:754
+msgid "Automatically create e-mail account when a new user is registered."
+msgstr ""
+"Автоматически создайте учетную запись электронной почты, при регистрации "
+"нового пользователя."
+
+#: emailmanager.php:754 emailmanager.php:968 emailmanager.php:1399
+msgid "Upgrade plugin"
+msgstr "Обновление плагина"
+
+#: emailmanager.php:754 emailmanager.php:968
+msgid "to use this feature"
+msgstr "для использования этой функции"
+
+#: emailmanager.php:757
+msgid "WordPress Groups"
+msgstr "WordPress группы"
+
+#: emailmanager.php:788
+msgid "Select the user groups eligible for automatic e-mail accounts."
+msgstr ""
+"Выберите группы пользователей для учетных записей автоматической электронной "
+"почты."
+
+#: emailmanager.php:789 emailmanager.php:1538 emailmanager.php:1639
+msgid "E-Mail Quota"
+msgstr "Электронной почте квот"
+
+#: emailmanager.php:789 emailmanager.php:961 emailmanager.php:1010
+#: emailmanager.php:1046 emailmanager.php:1639
+msgid "Enter"
+msgstr "Войти"
+
+#: emailmanager.php:789 emailmanager.php:1639
+msgid "for unlimited storage"
+msgstr "для неограниченного хранения"
+
+#: emailmanager.php:812
+msgid "Password Match"
+msgstr "Совпадение паролей"
+
+#: emailmanager.php:812
+msgid ""
+"If enabled, the plugin will match the WordPress login and cPanel e-mail "
+"passwords during WordPress user registrations."
+msgstr ""
+"Если этот параметр включен, плагин будет соответствовать логин WordPress и "
+"пароли электронной почты CPANEL во время регистрации пользователей WordPress."
+
+#: emailmanager.php:812
+msgid ""
+"Note: If the WordPress password provided during registration does not meet "
+"minimum requirements, it will be replaced with a stronger password."
+msgstr ""
+"Примечание: Если WordPress пароль, указанный при регистрации, не "
+"соответствуют минимальным требованиям, он будет заменен с более надежный "
+"пароль."
+
+#: emailmanager.php:812
+msgid ""
+"Note: If enabled and using a community plugin such as BuddyPress or Ultimate "
+"Member, the e-mail account will be created at the time of user registration "
+"and not once the user's WordPress account has been activated/approved."
+msgstr ""
+"Примечание: Если включен и с помощью плагина сообщества как BuddyPress или "
+"Ultimate члена, учетной записи электронной почты будет создан в момент "
+"регистрации пользователя и не после того, как учетная запись пользователя "
+"WordPress был активирован/утверждены."
+
+#: emailmanager.php:813
+msgid "E-Mail Address Match"
+msgstr "EMail Адрес матча"
+
+#: emailmanager.php:813
+msgid ""
+"If enabled, the plugin will update the user's WordPress registered e-mail "
+"address with the new e-mail address created in cPanel."
+msgstr ""
+"Если включена опция, плагин будет обновлять пользователи WordPress "
+"зарегистрированный адрес электронной почты с новым адрес электронной почты, "
+"созданный в Cpanel."
+
+#: emailmanager.php:814
+msgid "Password Strength"
+msgstr "Надежность Пароля"
+
+#: emailmanager.php:815
+msgid "Number of Lowercase Characters"
+msgstr "Количество символов в нижнем регистре"
+
+#: emailmanager.php:821
+msgid ""
+"Set the password strength criteria for cPanel e-mail accounts. If this "
+"password strength criteria is not met for new accounts, a stronger password "
+"will be generated."
+msgstr ""
+"Установите пароль прочности критерии для учетных записей электронной почты "
+"cPanel. Если этот пароль прочности не критериев для новых учетных записей, "
+"будет создаваться более надежный пароль."
+
+#: emailmanager.php:822
+msgid "Number of Numeric Characters"
+msgstr "Количество числовых символов"
+
+#: emailmanager.php:829
+msgid "Number of Uppercase Characters"
+msgstr "Количество символов верхнего регистра"
+
+#: emailmanager.php:837
+msgid "Number of Special Characters"
+msgstr "Количество специальных символов"
+
+#: emailmanager.php:845
+msgid "Minimum Password Length"
+msgstr "Минимальная длина пароля"
+
+#: emailmanager.php:858
+msgid "Display Password Fields"
+msgstr "Отображение поля пароля"
+
+#: emailmanager.php:858
+msgid ""
+"Enabling this option will allow users to manually set their own password "
+"during new user registration. If these fields are not shown, a password will "
+"be automatically set."
+msgstr ""
+"Включение этой опции позволит пользователям вручную установить свой "
+"собственный пароль во время регистрации нового пользователя. Если эти поля "
+"не отображаются, пароль будет автоматически установлен."
+
+#: emailmanager.php:858
+msgid "Not applicable for BuddyPress installations"
+msgstr "Не применимо для BuddyPress установки"
+
+#: emailmanager.php:859
+msgid "Disable Registration E-Mail"
+msgstr "Отключите регистрацию электронной почты"
+
+#: emailmanager.php:859
+msgid ""
+"You can choose to disable the WordPress New User Registration E-Mail from "
+"being sent."
+msgstr ""
+"Вы можете выбрать отключить WordPress нового пользователя регистрации "
+"электронной почты отправлялось."
+
+#: emailmanager.php:861
+msgid "Mailing Lists"
+msgstr "Списки рассылки"
+
+#: emailmanager.php:864
+msgid "Automatically Assign Mailing Lists"
+msgstr "Автоматически присвоит списков рассылки"
+
+#: emailmanager.php:887
+msgid ""
+"Select the mailing lists that new WordPress users should be automatically "
+"assigned to."
+msgstr ""
+"Выберите списки рассылки, что новые пользователи WordPress должны быть "
+"автоматически присвоенные."
+
+#: emailmanager.php:888
+msgid "Mailing List E-Mail Selection"
+msgstr "Выбор рассылки список адресов электронной почты"
+
+#: emailmanager.php:904
+msgid ""
+"Choose the e-mail address to be added to the mailing lists selected above."
+msgstr ""
+"Выберите адрес электронной почты, которые будут добавлены в списки рассылки, "
+"выбранных выше."
+
+#: emailmanager.php:907 emailmanager.php:911
+msgid "Mailing List Cleanup"
+msgstr "Очистка списка рассылки"
+
+#: emailmanager.php:907
+msgid ""
+"Automatically remove WordPress user's e-mail addresses from associated "
+"mailing lists when users are removed from this blog."
+msgstr ""
+"Автоматическое удаление пользователей WordPress адреса электронной почты из "
+"связанных списков рассылки, когда пользователи будут удалены из этого блога."
+
+#: emailmanager.php:911
+msgid ""
+"Automatically remove WordPress user's e-mail addresses from associated "
+"mailing lists when a WordPress user is deleted."
+msgstr ""
+"Автоматическое удаление пользователей WordPress адреса электронной почты из "
+"связанных списков рассылки, когда WordPress пользователь будет удален."
+
+#: emailmanager.php:915
+msgid "Remove E-Mail Accounts"
+msgstr "Удалить учетные записи электронной почты"
+
+#: emailmanager.php:916
+msgid "WARNING"
+msgstr "ПРЕДУПРЕЖДЕНИЕ"
+
+#: emailmanager.php:916
+msgid ""
+"This action is irreversible and will delete all data from the user's e-mail "
+"account."
+msgstr ""
+"Это действие является необратимым и будет удалить все данные из учетной "
+"записи электронной почты пользователя."
+
+#: emailmanager.php:919
+msgid "Delete E-Mail Account When Removing Network Users"
+msgstr ""
+"Удаление учетной записи электронной почты при удалении сетевых пользователей"
+
+#: emailmanager.php:919
+msgid ""
+"If enabled, existing cPanel e-mail accounts will be deleted when users are "
+"removed from this blog."
+msgstr ""
+"Если этот параметр включен, существующие учетные записи электронной почты "
+"Cpanel будут удалены, когда пользователи будут удалены из этого блога."
+
+#: emailmanager.php:921
+msgid "Delete E-Mail Account When WordPress User is Deleted"
+msgstr ""
+"Удаление учетной записи электронной почты Когда WordPress Пользователь удален"
+
+#: emailmanager.php:921
+msgid ""
+"Automatically delete associated cPanel e-mail account when a WordPress user "
+"is deleted."
+msgstr ""
+"Автоматическое удаление связанного с ним учетной записи электронной почты "
+"Cpanel, когда WordPress пользователь будет удален."
+
+#: emailmanager.php:924
+msgid "E-Mail Settings"
+msgstr "Настройки электронной почты"
+
+#: emailmanager.php:926 emailmanager.php:1905
+msgid "E-Mail Accounts"
+msgstr "Учетные записи электронной почты"
+
+#: emailmanager.php:930 emailmanager.php:1909
+msgid "Disk Space Usage"
+msgstr "Использование дискового пространства"
+
+#: emailmanager.php:953 emailmanager.php:971
+msgid "Webmail URL"
+msgstr "URL-адрес электронной почты"
+
+#: emailmanager.php:958
+msgid "cPanel Server Credentials"
+msgstr "cPanel сервера полномочия"
+
+#: emailmanager.php:961 emailmanager.php:1010 emailmanager.php:1046
+msgid "cPanel Server IP"
+msgstr "cPanel IP сервера"
+
+#: emailmanager.php:961 emailmanager.php:1010 emailmanager.php:1046
+msgid "or"
+msgstr "или"
+
+#: emailmanager.php:961 emailmanager.php:1010 emailmanager.php:1046
+msgid "if logging into cPanel on the same server as this WordPress install"
+msgstr "Если войти в cPanel на том же сервере этот WordPress установки"
+
+#: emailmanager.php:964
+msgid ""
+"E-Mail Notification Settings (will send to user's primary e-mail account)"
+msgstr ""
+"Параметры уведомлений электронной почты (будет выслана на основной адрес "
+"электронной почты учетной записи пользователя)"
+
+#: emailmanager.php:966 emailmanager.php:968
+msgid "Enable E-Mail Notification"
+msgstr "Включить уведомление по электронной почте"
+
+#: emailmanager.php:970
+msgid "E-Mail Message"
+msgstr "Сообщение электронной почты"
+
+#: emailmanager.php:971
+msgid "The following variables can be used"
+msgstr "Следующие переменные могут использоваться"
+
+#: emailmanager.php:971
+msgid "User's first name"
+msgstr "Имя пользователя"
+
+#: emailmanager.php:971
+msgid "User's last name"
+msgstr "Фамилия пользователя"
+
+#: emailmanager.php:971
+msgid "User's username/login ID"
+msgstr "Идентификатор пользователя/входа пользователя"
+
+#: emailmanager.php:971
+msgid "User's registered WordPress e-mail address"
+msgstr "Зарегистрированных пользователей WordPress адрес электронной почты"
+
+#: emailmanager.php:971
+msgid "cPanel e-mail address assigned to user"
+msgstr "cPanel адрес электронной почты, назначенный пользователю"
+
+#: emailmanager.php:971
+msgid "Temporary password for webmail"
+msgstr "Временный пароль для электронной почты"
+
+#: emailmanager.php:971
+msgid "WordPress Site URL"
+msgstr "URL-адрес сайта WordPress"
+
+#: emailmanager.php:976 emailmanager.php:1013 emailmanager.php:1049
+#: emailmanager.php:1649
+msgid "Save Settings"
+msgstr "Сохранить настройки"
+
+#: emailmanager.php:981 emailmanager.php:985 emailmanager.php:1020
+#: emailmanager.php:1657 emailmanager.php:1915
+msgid ""
+"The cPanel credentials entered are not valid or a valid domain has not been "
+"selected. A connection could not be established."
+msgstr ""
+"CPanel введенные учетные данные недействительны или не был выбран допустимый "
+"домен. Подключение не удалось."
+
+#: emailmanager.php:1007 emailmanager.php:1043
+msgid ""
+"Please enter your cPanel login credentials and click Save Changes to "
+"continue."
+msgstr ""
+"Пожалуйста, введите ваши учетные данные входа cPanel и нажмите кнопку "
+"Сохранить изменения, чтобы продолжить."
+
+#: emailmanager.php:1076
+#, php-format
+msgid "The password for %s has been successfully changed"
+msgstr "Пароль для %s успешно изменен"
+
+#: emailmanager.php:1093
+#, php-format
+msgid "The quota for %s has been successfully changed"
+msgstr "Квота для %s успешно изменен"
+
+#: emailmanager.php:1099
+#, php-format
+msgid "The e-mail account for %s has been successfully removed"
+msgstr "Учетной записи электронной почты для %s был успешно удален"
+
+#: emailmanager.php:1144
+msgid "User accounts have been successfully linked"
+msgstr "Учетные записи пользователей были успешно связаны"
+
+#: emailmanager.php:1148
+msgid ""
+"More than one user account was assigned to the same e-mail address. You can "
+"only assign each e-mail address to a single WordPress user account."
+msgstr ""
+"Более чем одной учетной записи пользователя назначен один и тот же адрес "
+"электронной почты. Каждый адрес электронной почты можно назначить только "
+"одной учетной записи пользователя WordPress."
+
+#: emailmanager.php:1176 emailmanager.php:1545
+msgid "You must enter a valid password."
+msgstr "Вы должны ввести правильный пароль."
+
+#: emailmanager.php:1180 emailmanager.php:1549
+msgid "The password entered does not meet minimum requirements."
+msgstr "Введенный пароль не соответствует минимальным требованиям."
+
+#: emailmanager.php:1189
+msgid "The password could not be updated for the following reasons"
+msgstr "Пароль не может быть обновлен по следующим причинам"
+
+#: emailmanager.php:1203 emailmanager.php:1213
+msgid "You must enter a valid quota."
+msgstr "Вы должны ввести действительный квоты."
+
+#: emailmanager.php:1218
+msgid ""
+"Are you sure you want to delete this e-mail account and all associated data?"
+msgstr ""
+"Вы уверены, что вы хотите удалить эту учетную запись электронной почты и все "
+"связанные данные?"
+
+#: emailmanager.php:1274 emailmanager.php:1570 emailmanager.php:1705
+#: emailmanager.php:1779
+msgid "Very Weak (Password is not strong enough)"
+msgstr "Очень слабый (пароль не является достаточно сильным)"
+
+#: emailmanager.php:1275 emailmanager.php:1571 emailmanager.php:1706
+#: emailmanager.php:1780
+msgid "Weak (Password is not strong enough)"
+msgstr "Слабая (пароль не является достаточно сильным)"
+
+#: emailmanager.php:1276 emailmanager.php:1572
+msgid "Better"
+msgstr "Лучше"
+
+#: emailmanager.php:1277 emailmanager.php:1573
+msgid "Medium"
+msgstr "средний"
+
+#: emailmanager.php:1278 emailmanager.php:1574
+msgid "Strong"
+msgstr "сильный"
+
+#: emailmanager.php:1279 emailmanager.php:1575 emailmanager.php:1710
+#: emailmanager.php:1784
+msgid "Strongest"
+msgstr "Сильнейшие"
+
+#: emailmanager.php:1299 emailmanager.php:1595 emailmanager.php:1730
+#: emailmanager.php:1804
+msgid "Strength"
+msgstr "Прочность"
+
+#: emailmanager.php:1304 emailmanager.php:1600
+msgid "Password Should be Minimum 6 Characters"
+msgstr "Пароль должен содержать минимум 6 символов"
+
+#: emailmanager.php:1309
+msgid "Active Accounts"
+msgstr "Активные счета"
+
+#: emailmanager.php:1312 emailmanager.php:1359
+msgid "Disk Usage"
+msgstr "Использование диска"
+
+#: emailmanager.php:1342
+msgid "items"
+msgstr "Предметы"
+
+#: emailmanager.php:1348
+msgid "Current Page"
+msgstr "Текущая страница"
+
+#: emailmanager.php:1348
+msgid "of"
+msgstr "из"
+
+#: emailmanager.php:1357
+msgid "User"
+msgstr "пользователь"
+
+#: emailmanager.php:1358 emailmanager.php:1469
+msgid "E-Mail Account"
+msgstr "Учетная запись электронной почты"
+
+#: emailmanager.php:1360
+msgid "Actions"
+msgstr "действия"
+
+#: emailmanager.php:1380
+msgid "Not Linked to WordPress"
+msgstr "Не связаны с WordPress"
+
+#: emailmanager.php:1382
+msgid "Link Now"
+msgstr "Ссылка теперь"
+
+#: emailmanager.php:1397 emailmanager.php:1399 emailmanager.php:1404
+#: emailmanager.php:1405
+msgid "Change Password"
+msgstr "Изменить пароль"
+
+#: emailmanager.php:1397 emailmanager.php:1399 emailmanager.php:1408
+#: emailmanager.php:1414
+msgid "Change Quota"
+msgstr "Изменения квот"
+
+#: emailmanager.php:1397 emailmanager.php:1399
+msgid "Delete Account"
+msgstr "Удалить аккаунт"
+
+#: emailmanager.php:1399
+msgid "to enable all features"
+msgstr "чтобы включить все возможности"
+
+#: emailmanager.php:1404
+msgid "Enter New Password"
+msgstr "Введите новый пароль"
+
+#: emailmanager.php:1405 emailmanager.php:1648
+msgid "Generate Password"
+msgstr "Создать пароль"
+
+#: emailmanager.php:1410 emailmanager.php:1412
+msgid "Custom Quota"
+msgstr "Пользовательские квоты"
+
+#: emailmanager.php:1410 emailmanager.php:1412
+msgid "Unlimited"
+msgstr "неограниченный"
+
+#: emailmanager.php:1418 emailmanager.php:1442
+msgid "There are no accounts to display."
+msgstr "Есть никаких счетов для отображения."
+
+#: emailmanager.php:1418 emailmanager.php:1442
+msgid "Add a New Account"
+msgstr "Добавить новую учетную запись"
+
+#: emailmanager.php:1431
+msgid "You must enter a valid page number."
+msgstr "Необходимо ввести допустимый номер."
+
+#: emailmanager.php:1433
+msgid ""
+"The page number you have entered exceeds the total number of pages available."
+msgstr ""
+"Введенный вами номер страницы превышает общее количество доступных страниц."
+
+#: emailmanager.php:1445 emailmanager.php:1511 emailmanager.php:1661
+#: emailmanager.php:1919
+msgid "To use this plugin, please enter your configuration details"
+msgstr ""
+"Чтобы использовать этот плагин, пожалуйста введите ваши детали конфигурации"
+
+#: emailmanager.php:1445 emailmanager.php:1511 emailmanager.php:1658
+#: emailmanager.php:1661 emailmanager.php:1916 emailmanager.php:1919
+msgid "here"
+msgstr "bот"
+
+#: emailmanager.php:1468
+msgid "WordPress User"
+msgstr "WordPress Пользователь"
+
+#: emailmanager.php:1502
+msgid "Update User Profiles"
+msgstr "Обновление профилей пользователей"
+
+#: emailmanager.php:1504
+msgid "There are no unassigned WordPress accounts to display."
+msgstr ""
+"Существует нет Нераспределенные WordPress учетные записи для отображения."
+
+#: emailmanager.php:1508
+msgid "There are no unassigned cPanel accounts to display."
+msgstr "Есть никаких счетов Нераспределенные cPanel для отображения."
+
+#: emailmanager.php:1541
+msgid "You must enter a valid e-mail alias."
+msgstr "Вы должны ввести псевдоним электронной почты."
+
+#: emailmanager.php:1617
+msgid "Complete the form below to create a new e-mail account"
+msgstr "Заполните форму для создания новой учетной записи электронной почты"
+
+#: emailmanager.php:1618
+msgid "Link to a WordPress User"
+msgstr "Ссылка на WordPress пользователя"
+
+#: emailmanager.php:1638
+msgid "Optional"
+msgstr "Необязательный"
+
+#: emailmanager.php:1647
+msgid "Custom E-Mail Alias"
+msgstr "Настраиваемый адрес электронной почты"
+
+#: emailmanager.php:1647
+msgid ""
+"Note: You must select the Custom option in the field above for this setting "
+"to be applied."
+msgstr ""
+"Примечание: Необходимо выбрать параметр в поле выше, для этого параметра, "
+"чтобы применяться."
+
+#: emailmanager.php:1648
+msgid "User Password"
+msgstr "Пользовательский пароль"
+
+#: emailmanager.php:1653
+msgid "You have reached maximum capacity for e-mail accounts on this server."
+msgstr ""
+"Вы достигли максимальной емкостью для учетных записей электронной почты на "
+"этом сервере."
+
+#: emailmanager.php:1654
+msgid ""
+"Please contact your e-mail hosting provider to increase capacity or delete "
+"an existing e-mail account to add another."
+msgstr ""
+"Обратитесь к поставщику хостинга электронной почты для увеличения потенциала "
+"или удалить существующую учетную запись электронной почты для добавления "
+"другой."
+
+#: emailmanager.php:1658 emailmanager.php:1916
+msgid "Please update your configuration settings"
+msgstr "Пожалуйста, обновите параметры конфигурации"
+
+#: emailmanager.php:1669
+msgid ""
+"To use advanced features of this plugin, please upgrade to the professional "
+"version."
+msgstr ""
+"Чтобы использовать расширенные функции этого плагина, выполните обновление "
+"до версии professional."
+
+#: emailmanager.php:1669
+msgid "Click here"
+msgstr "кликните сюда"
+
+#: emailmanager.php:1669
+msgid "to purchase cPanel E-Mail Manager Pro now"
+msgstr "Теперь приобрести cPanel электронной почты Manager Pro"
+
+#: emailmanager.php:1670
+msgid ""
+"Note: You must download the additional files required to use the "
+"professional version of this plugin before the advanced features will become "
+"active."
+msgstr ""
+"Примечание: Вы должны загрузить дополнительные файлы, необходимые для "
+"использования профессиональной версии этого плагина, прежде чем расширенные "
+"функции станет активным."
+
+#: emailmanager.php:1691 emailmanager.php:1752
+msgid "Assigned E-Mail Account Information"
+msgstr "Назначенные электронной почты учетной записи информации"
+
+#: emailmanager.php:1692 emailmanager.php:1755
+msgid "Your Current E-Mail Address"
+msgstr "Ваш текущий адрес электронной почты"
+
+#: emailmanager.php:1693 emailmanager.php:1757
+msgid "Check Webmail"
+msgstr "Проверка почты"
+
+#: emailmanager.php:1695 emailmanager.php:1761
+msgid "New E-Mail Password"
+msgstr "Новый пароль электронной почты"
+
+#: emailmanager.php:1697 emailmanager.php:1764
+msgid ""
+"If you would like to change your e-mail account password, please enter it "
+"here. Otherwise leave these fields blank."
+msgstr ""
+"Если вы хотите изменить пароль учетной записи электронной почты, введите его "
+"здесь. В противном случае оставьте эти поля пустыми."
+
+#: emailmanager.php:1698 emailmanager.php:1768
+msgid "Repeat New E-Mail Password"
+msgstr "Повторить новый пароль электронной почты"
+
+#: emailmanager.php:1700 emailmanager.php:1771
+msgid "Type your new e-mail password again."
+msgstr "Снова введите новый пароль электронной почты."
+
+#: emailmanager.php:1707 emailmanager.php:1781
+msgid "Better (Password does not meet minimum requirements)"
+msgstr "Лучше (пароль не соответствуют минимальным требованиям)"
+
+#: emailmanager.php:1708 emailmanager.php:1782
+msgid "Medium (Password does not meet minimum requirements)"
+msgstr "Средний (пароль не соответствуют минимальным требованиям)"
+
+#: emailmanager.php:1709 emailmanager.php:1783
+msgid "Strong (Password does not meet minimum requirements)"
+msgstr "Strong (пароль не соответствуют минимальным требованиям)"
+
+#: emailmanager.php:1735 emailmanager.php:1809
+msgid "Password Should be Minimum"
+msgstr "Пароль должен быть минимум"
+
+#: emailmanager.php:1735 emailmanager.php:1809
+msgid "Characters"
+msgstr "Персонажи"
+
+#: emailmanager.php:1741 emailmanager.php:1815
+msgid "Passwords do not match"
+msgstr "Passwords do not match"
+
+#: emailmanager.php:1848
+msgid "Your e-mail password has been successfully updated."
+msgstr "Ваш e-mail пароль был успешно обновлен."
+
+#: emailmanager.php:1851 emailmanager.php:1889
+msgid "The e-mail password provided does not meet minimum requirements."
+msgstr "Пароль электронной почты не соответствуют минимальным требованиям."
+
+#: emailmanager.php:1854 emailmanager.php:1893
+msgid "The e-mail passwords provided do not match."
+msgstr "Пароли электронной почты представлена не совпадают."
+
+#: emailmanager.php:2218
+msgid "Standard"
+msgstr "стандарт"
+
+#: emailmanager.php:2221
+msgid "PayPal - The safer, easier way to pay online!"
+msgstr "PayPal - более безопасный и простой способ оплаты через Интернет!"
+
+#: emailmanager.php:2225
+msgid "Pro"
+msgstr "профессионал"
+
+#~ msgid ""
+#~ "Automatically remove WordPress user e-mail addresses from associated "
+#~ "mailing lists when a WordPress user is deleted."
+#~ msgstr ""
+#~ "Автоматически удалите WordPress адреса электронной почты пользователей из "
+#~ "связанных списков рассылки, когда WordPress пользователь удаляется."
+
+#~ msgid "Remove User"
+#~ msgstr "Удалить пользователя"
+
+#~ msgid ""
+#~ "Automatically remove associated cPanel e-mail accounts when a WordPress "
+#~ "user is deleted."
+#~ msgstr ""
+#~ "При удалении пользователя WordPress автоматически удаляйте учетные записи "
+#~ "электронной почты связан cPanel."
+
+#~ msgid "WARINING"
+#~ msgstr "Warinin G"
